@@ -1,0 +1,21 @@
+﻿protocol,protocol_label,metric,metric_label,n_test_views,median,q1,q3,minimum,maximum
+al,Interleaved,temporal_gap_frames,Nearest temporal gap (frames),146,1.0,1.0,1.0,1.0,2.0
+al,Interleaved,temporal_neighbor_center_distance_norm,Camera-centre distance (normalised),146,0.02805932656883696,0.021976623964270706,0.03247053775909373,0.0031186587607484224,0.05458700487886399
+al,Interleaved,temporal_neighbor_angle_deg,Viewing-direction angle (degrees),146,3.9810445419787945,3.185843254972944,4.862881441726039,0.19095818417811272,8.507339710972492
+al,Interleaved,max_train_ssim,Maximum training-image SSIM,146,0.5639143948869713,0.5239372794562603,0.6329300446421948,0.3867186104833646,0.7730793197558626
+interleaved_cm,Interleaved-CM,temporal_gap_frames,Nearest temporal gap (frames),146,1.0,1.0,1.0,1.0,2.0
+interleaved_cm,Interleaved-CM,temporal_neighbor_center_distance_norm,Camera-centre distance (normalised),146,0.02805932656883696,0.021976623964270706,0.03247053775909373,0.0031186587607484224,0.05458700487886399
+interleaved_cm,Interleaved-CM,temporal_neighbor_angle_deg,Viewing-direction angle (degrees),146,3.9810445419787945,3.185843254972944,4.862881441726039,0.19095818417811272,8.507339710972492
+interleaved_cm,Interleaved-CM,max_train_ssim,Maximum training-image SSIM,146,0.5639143948869713,0.5239372794562603,0.6329300446421948,0.3867186104833646,0.7730793197558626
+blocked_v1,Blocked-v1,temporal_gap_frames,Nearest temporal gap (frames),140,4.0,3.0,4.0,3.0,7.0
+blocked_v1,Blocked-v1,temporal_neighbor_center_distance_norm,Camera-centre distance (normalised),140,0.1034197223775406,0.08826026411704915,0.1284884200767789,0.05630704803418806,0.2089934934098066
+blocked_v1,Blocked-v1,temporal_neighbor_angle_deg,Viewing-direction angle (degrees),140,15.377855760871528,13.437057287027113,18.7442712018555,5.496151780915512,33.490138031162324
+blocked_v1,Blocked-v1,max_train_ssim,Maximum training-image SSIM,140,0.49113388635259914,0.4427105886077528,0.5519930610210905,0.3438391415869398,0.6250244153292582
+blocked_v2,Blocked-v2,temporal_gap_frames,Nearest temporal gap (frames),140,4.0,3.0,4.0,3.0,7.0
+blocked_v2,Blocked-v2,temporal_neighbor_center_distance_norm,Camera-centre distance (normalised),140,0.10050290333167201,0.08321108029009221,0.12203878870048807,0.027662987968744262,0.19803899252073656
+blocked_v2,Blocked-v2,temporal_neighbor_angle_deg,Viewing-direction angle (degrees),140,14.859863861830162,12.363633911283754,18.155058079940634,5.8985716451564505,34.42035141261577
+blocked_v2,Blocked-v2,max_train_ssim,Maximum training-image SSIM,140,0.49798103799174576,0.44018853673385167,0.5452441185393119,0.3505358717016205,0.6387884877148502
+blocked_v3,Blocked-v3,temporal_gap_frames,Nearest temporal gap (frames),140,4.0,3.0,4.0,3.0,7.0
+blocked_v3,Blocked-v3,temporal_neighbor_center_distance_norm,Camera-centre distance (normalised),140,0.09946984034879841,0.08252165155828925,0.12188933613566248,0.030931991185647323,0.1977521451119856
+blocked_v3,Blocked-v3,temporal_neighbor_angle_deg,Viewing-direction angle (degrees),140,15.045792557100853,12.361385253668285,19.12178697536029,6.46645471927044,32.78231154680692
+blocked_v3,Blocked-v3,max_train_ssim,Maximum training-image SSIM,140,0.5064325525014524,0.45839972539371904,0.5547231326193668,0.36309496213365483,0.6299265171916129

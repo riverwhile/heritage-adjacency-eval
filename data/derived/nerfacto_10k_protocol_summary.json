@@ -1,0 +1,178 @@
+{
+  "matrix_rows": 28,
+  "objects": 7,
+  "iterations": 10000,
+  "seed": 2024,
+  "camera_optimizer": "off",
+  "protocols": {
+    "al": {
+      "psnr": {
+        "mean_out_minus_in": 2.9413040706089566,
+        "bootstrap_95_ci": [
+          1.4290319170270647,
+          4.47266605922154
+        ],
+        "out_better_objects": 6,
+        "total_objects": 7
+      },
+      "ssim": {
+        "mean_out_minus_in": 0.06541016272136144,
+        "bootstrap_95_ci": [
+          0.04623281104224069,
+          0.08569698674338204
+        ],
+        "out_better_objects": 7,
+        "total_objects": 7
+      },
+      "lpips": {
+        "mean_out_minus_in": -0.14774085581302643,
+        "bootstrap_95_ci": [
+          -0.1737500216279711,
+          -0.1251253890139716
+        ],
+        "out_better_objects": 7,
+        "total_objects": 7
+      }
+    },
+    "blocked_v1": {
+      "psnr": {
+        "mean_out_minus_in": 2.361821038382394,
+        "bootstrap_95_ci": [
+          1.3418532780238561,
+          3.543363298688616
+        ],
+        "out_better_objects": 7,
+        "total_objects": 7
+      },
+      "ssim": {
+        "mean_out_minus_in": 0.03131292547498431,
+        "bootstrap_95_ci": [
+          0.008989376681191581,
+          0.06397619417735509
+        ],
+        "out_better_objects": 7,
+        "total_objects": 7
+      },
+      "lpips": {
+        "mean_out_minus_in": -0.08049492750849042,
+        "bootstrap_95_ci": [
+          -0.14057587725775583,
+          -0.039051217692238946
+        ],
+        "out_better_objects": 7,
+        "total_objects": 7
+      }
+    }
+  },
+  "difference_of_differences_blocked_minus_al": {
+    "psnr": {
+      "mean": -0.5794830322265625,
+      "bootstrap_95_ci": [
+        -1.1744722638811385,
+        0.1089322090148902
+      ]
+    },
+    "ssim": {
+      "mean": -0.03409723724637713,
+      "bootstrap_95_ci": [
+        -0.061289114611489434,
+        -0.007708532469613212
+      ]
+    },
+    "lpips": {
+      "mean": 0.067245928304536,
+      "bootstrap_95_ci": [
+        0.023813909717968533,
+        0.11046411522797175
+      ]
+    }
+  },
+  "blocked_minus_al_absolute_difficulty": {
+    "psnr": {
+      "mean": -3.6644908360072543,
+      "bootstrap_95_ci": [
+        -4.163627590451922,
+        -3.1685173579624726
+      ]
+    },
+    "ssim": {
+      "mean": -0.050239780119487217,
+      "bootstrap_95_ci": [
+        -0.06741332071168082,
+        -0.0336994799120086
+      ]
+    },
+    "lpips": {
+      "mean": 0.12582750086273467,
+      "bootstrap_95_ci": [
+        0.09943261524396282,
+        0.15432087869516442
+      ]
+    }
+  },
+  "object_deltas": [
+    {
+      "object": "bronze_cup",
+      "al_psnr_out_minus_in": 1.0763721466064453,
+      "al_ssim_out_minus_in": 0.053577303886413574,
+      "al_lpips_out_minus_in": -0.14172057807445526,
+      "blocked_v1_psnr_out_minus_in": 1.6411762237548828,
+      "blocked_v1_ssim_out_minus_in": 0.0016943812370300293,
+      "blocked_v1_lpips_out_minus_in": -0.056794196367263794
+    },
+    {
+      "object": "bronze_statue",
+      "al_psnr_out_minus_in": -0.13451766967773438,
+      "al_ssim_out_minus_in": 0.057135164737701416,
+      "al_lpips_out_minus_in": -0.11379635334014893,
+      "blocked_v1_psnr_out_minus_in": 0.8429794311523438,
+      "blocked_v1_ssim_out_minus_in": 0.02225780487060547,
+      "blocked_v1_lpips_out_minus_in": -0.05466216802597046
+    },
+    {
+      "object": "cloth_hat",
+      "al_psnr_out_minus_in": 2.331462860107422,
+      "al_ssim_out_minus_in": 0.029008150100708008,
+      "al_lpips_out_minus_in": -0.11450748145580292,
+      "blocked_v1_psnr_out_minus_in": 1.5849781036376953,
+      "blocked_v1_ssim_out_minus_in": 0.009945273399353027,
+      "blocked_v1_lpips_out_minus_in": -0.0951036810874939
+    },
+    {
+      "object": "cloth_shoe",
+      "al_psnr_out_minus_in": 5.332874298095703,
+      "al_ssim_out_minus_in": 0.04015094041824341,
+      "al_lpips_out_minus_in": -0.12755142152309418,
+      "blocked_v1_psnr_out_minus_in": 4.284107208251953,
+      "blocked_v1_ssim_out_minus_in": 0.0396234393119812,
+      "blocked_v1_lpips_out_minus_in": -0.06672382354736328
+    },
+    {
+      "object": "porcelain_plate",
+      "al_psnr_out_minus_in": 2.827211380004883,
+      "al_ssim_out_minus_in": 0.0714384913444519,
+      "al_lpips_out_minus_in": -0.1492869257926941,
+      "blocked_v1_psnr_out_minus_in": 1.498159408569336,
+      "blocked_v1_ssim_out_minus_in": 0.019272267818450928,
+      "blocked_v1_lpips_out_minus_in": -0.0383339524269104
+    },
+    {
+      "object": "silver_comb",
+      "al_psnr_out_minus_in": 6.261699676513672,
+      "al_ssim_out_minus_in": 0.10238981246948242,
+      "al_lpips_out_minus_in": -0.21226857602596283,
+      "blocked_v1_psnr_out_minus_in": 5.2053070068359375,
+      "blocked_v1_ssim_out_minus_in": 0.12301570177078247,
+      "blocked_v1_lpips_out_minus_in": -0.24306917190551758
+    },
+    {
+      "object": "stone_horse",
+      "al_psnr_out_minus_in": 2.8940258026123047,
+      "al_ssim_out_minus_in": 0.1041712760925293,
+      "al_lpips_out_minus_in": -0.1750546544790268,
+      "blocked_v1_psnr_out_minus_in": 1.4760398864746094,
+      "blocked_v1_ssim_out_minus_in": 0.0033816099166870117,
+      "blocked_v1_lpips_out_minus_in": -0.008777499198913574
+    }
+  ]
+}
