@@ -20,3 +20,4 @@ data/private/
 secrets*
 *.pem
 id_ed25519*
+artifacts/

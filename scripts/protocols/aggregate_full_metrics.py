@@ -88,7 +88,7 @@ for method in ("ours_10000", "composite_10000"):
             joined.extend([{**p, "condition": "plain"}, {**v, "condition": "veil"}])
     comparisons[f"seed0_veil_{method}_vs_plain"] = compare(joined, "plain", "veil")
 
-out = {"generated_from": str(ROOT), "n_metric_rows": len(rows),
+out = {"n_metric_rows": len(rows),
        "metrics": list(METRICS), "comparisons": comparisons}
 OUT_JSON.write_text(json.dumps(out, indent=2), encoding="utf-8")
 with OUT_CSV.open("w", newline="", encoding="utf-8") as f:

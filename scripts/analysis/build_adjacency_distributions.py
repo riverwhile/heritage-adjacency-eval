@@ -5,17 +5,23 @@ describe held-out-view geometry and are not used for frame-level inference.
 """
 
 from pathlib import Path
+import argparse
 import csv
 import statistics
 
-import matplotlib.pyplot as plt
 import numpy as np
 
 
 ROOT = Path(__file__).resolve().parents[2]
-TABLES = ROOT / "paper" / "sci_assets" / "tables"
-FIGURES = ROOT / "paper" / "sci_assets" / "figures"
-SOURCE = TABLES / "split_leakage_audit_rows_with_cm.csv"
+parser = argparse.ArgumentParser()
+parser.add_argument("--input", type=Path, required=True, help="Per-view adjacency audit CSV from an authorised data run")
+parser.add_argument("--output-dir", type=Path, default=ROOT / "artifacts")
+args = parser.parse_args()
+import matplotlib.pyplot as plt
+TABLES = args.output_dir
+FIGURES = args.output_dir
+SOURCE = args.input
+args.output_dir.mkdir(parents=True, exist_ok=True)
 
 PROTOCOLS = ["al", "interleaved_cm", "blocked_v1", "blocked_v2", "blocked_v3"]
 LABELS = ["Interleaved", "Interleaved-CM", "Blocked-v1", "Blocked-v2", "Blocked-v3"]

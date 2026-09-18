@@ -69,8 +69,8 @@ def main() -> int:
                 "condition": key[1],
                 "protocol": key[2],
                 **metric_values,
-                "checkpoint": payload.get("checkpoint", ""),
-                "source_json": str(path),
+                "checkpoint_name": Path(payload.get("checkpoint", "")).name,
+                "source_json": path.name,
             }
         )
 

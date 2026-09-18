@@ -1,0 +1,8 @@
+object,encoded_width,encoded_height,video_fps,in_duration_s,out_duration_s,in_video_samples,out_video_samples
+bronze_cup,1280,720,30,29.63,20.43,889,613
+bronze_statue,1280,720,30,29.37,20.97,881,629
+cloth_hat,1280,720,30,28.90,21.80,867,654
+cloth_shoe,1280,720,30,21.93,18.93,658,568
+porcelain_plate,1280,720,30,27.90,24.20,837,726
+silver_comb,1280,720,30,24.10,15.47,723,464
+stone_horse,1280,720,30,25.40,19.13,762,574

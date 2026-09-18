@@ -1,0 +1,6 @@
+-r requirements.txt
+opencv-python>=4.8
+pandas>=2.0
+Pillow>=10.0
+pycolmap==4.1.1
+scikit-image>=0.21
